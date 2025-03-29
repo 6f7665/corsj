@@ -6,7 +6,7 @@ import java.util.List;
 
 public class HttpServer {
 	public static void main(String[] args) {
-		HttpRequestHandler hander = new HttpRequestHandler();
+		RequestHandler hander = new RequestHandler();
 		System.out.println(hander.getPage("dumps/dump-req-page"));
 	}
 }

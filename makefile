@@ -5,7 +5,7 @@ JC = javac
 # flags
 JFLAGS = -g
 
-CLASSES = HttpServer.class HttpRequestHandler.class
+CLASSES = HttpServer.class RequestHandler.class
 
 all: app
 

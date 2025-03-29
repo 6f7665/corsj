@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 // Class för att hantera förfrågningar
-class HttpRequestHandler {
+class RequestHandler {
 	public static String getPage(String getrequest) {
 		String output = "";
 		Path path = Paths.get(getrequest);
